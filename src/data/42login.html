@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to 42</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="path_to_your_script.js"></script> <!-- If needed -->
+</head>
+<body>
+    <div id="kc-header">
+        <div id="kc-header-wrapper">Realm for 42 students</div>
+    </div>
+    <div>
+        <header>
+            <h1 id="kc-page-title"></h1>
+        </header>
+        <div id="kc-content">
+            <div id="kc-content-wrapper">
+                <div id="kc-form">
+                    <img id="logo" src="./assets/42_logo.svg">
+                    <div id="kc-form-wrapper">
+                        <form id="kc-form-login" onsubmit="login.disabled = true; return true;" method="post">
+                            <div>
+                                <input tabindex="1" id="username" name="username" type="text" autofocus autocomplete="off" placeholder="Login or email" aria-invalid="">
+                            </div>
+                            <div>
+                                <input tabindex="2" id="password" name="password" type="password" autocomplete="off" placeholder="Password" aria-invalid="">
+                            </div>
+                            <div>
+                                <div id="kc-form-options">
+                                    <div class="checkbox" id="remember-me">
+                                        <label>
+                                            <input tabindex="3" id="rememberMe" name="rememberMe" type="checkbox" checked> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="kc-form-buttons">
+                                <input type="hidden" id="id-hidden-input" name="credentialId">
+                                <input tabindex="4" name="login" id="kc-login" type="submit" value="Sign In">
+                            </div>
+                            <div>
+                                <a id="reset-password" tabindex="5" href="#">Forgot or change your password?</a>
+                            </div>
+                            <div>
+                                <a id="change-realm" tabindex="6" href="#">Sign in as staff</a>
+                            </div>
+                            <div>
+                                <a id="legal" href="#" target="_blank">Read our terms and conditions</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to 42</title>
+    <link rel="stylesheet" href="path_to_your_css_file.css"> <!-- Update this path -->
+    <script src="path_to_your_script.js"></script> <!-- If needed -->
+</head>
+<body>
+    <div id="kc-header">
+        <div id="kc-header-wrapper">Realm for 42 students</div>
+    </div>
+    <div>
+        <header>
+            <h1 id="kc-page-title"></h1>
+        </header>
+        <div id="kc-content">
+            <div id="kc-content-wrapper">
+                <div id="kc-form">
+                    <img id="logo" src="path_to_42_logo.svg"> <!-- Update the path to the logo -->
+                    <div id="kc-form-wrapper">
+                        <form id="kc-form-login" onsubmit="login.disabled = true; return true;" method="post">
+                            <div>
+                                <input tabindex="1" id="username" name="username" type="text" autofocus autocomplete="off" placeholder="Login or email" aria-invalid="">
+                            </div>
+                            <div>
+                                <input tabindex="2" id="password" name="password" type="password" autocomplete="off" placeholder="Password" aria-invalid="">
+                            </div>
+                            <div>
+                                <div id="kc-form-options">
+                                    <div class="checkbox" id="remember-me">
+                                        <label>
+                                            <input tabindex="3" id="rememberMe" name="rememberMe" type="checkbox" checked> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="kc-form-buttons">
+                                <input type="hidden" id="id-hidden-input" name="credentialId">
+                                <input tabindex="4" name="login" id="kc-login" type="submit" value="Sign In">
+                            </div>
+                            <div>
+                                <a id="reset-password" tabindex="5" href="#">Forgot or change your password?</a>
+                            </div>
+                            <div>
+                                <a id="change-realm" tabindex="6" href="#">Sign in as staff</a>
+                            </div>
+                            <div>
+                                <a id="legal" href="#" target="_blank">Read our terms and conditions</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
