@@ -1,5 +1,8 @@
 # ESP-Middleman
 
+#### Still in production but the code base can be used with almost any controller with proper platformio.ini configurations!
+#### And the login portal files can be also modified to user needs
+
 ## Introduction
 
 ESP-Middleman is a practical project designed to create a middle-man Access Point (AP) for various purposes. It provides a flexible login portal configuration, allowing users to mimic login portals of popular Wi-Fi networks and capture login credentials for analysis or testing purposes.
